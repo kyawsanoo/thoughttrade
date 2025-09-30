@@ -7,8 +7,9 @@ local.properties
 
 # Node / Vercel if you have frontend
 node_modules/
-dist/
-out/
+.env.local
+.next/
+
 
 # Environment / secrets
 .env
@@ -21,3 +22,4 @@ service-account.json
 .DS_Store
 Thumbs.db
 
+.vercel
