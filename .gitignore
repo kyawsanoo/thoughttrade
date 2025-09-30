@@ -1,0 +1,23 @@
+# Android / Compose
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+
+# Node / Vercel if you have frontend
+node_modules/
+dist/
+out/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.key
+service-account.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
